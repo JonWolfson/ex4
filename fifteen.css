@@ -1,0 +1,31 @@
+body {
+  font-family: cursive;
+  font-size: 14pt;
+  text-align: center;
+}
+
+.tile {
+  width: 90px;
+  height: 90px;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  font-size: 40pt;
+  position: absolute;
+  background-image: url(background.jpg);
+}
+
+#blanktile {
+  width: 100px;
+  height: 100px;
+  float: left;
+  position: absolute;
+}
+
+#puzzlearea {
+  height: 400px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
